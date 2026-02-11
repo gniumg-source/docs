@@ -1,0 +1,51 @@
+Documentación de GitHub
+Empezar /Explorar proyectos /Encontrar proyectos de código abierto
+Encontrar formas de contribuir al código abierto en GitHub
+Puede encontrar formas de contribuir a proyectos de código abierto en GitHub que sean relevantes para usted.
+
+En este artículo
+El software de código abierto impulsa gran parte de la tecnología que utilizamos a diario, desde el navegador web en nuestra pantalla hasta el helicóptero Ingenuity de la NASA que voló en Marte .
+
+Contribuir al software de código abierto le permite desarrollar su experiencia técnica, impulsar su cartera, ayudar a dar forma al futuro de la tecnología y conectarse con desarrolladores de todo el mundo.
+
+Descubriendo proyectos relevantes
+Con la amplia gama de proyectos de código abierto disponibles que abarcan numerosos dominios y tecnologías, encontrar el punto de partida para contribuir puede resultar abrumador. Si utilizas software de código abierto a diario, ¡es un excelente punto de partida! GitHub también ofrece varias herramientas que pueden ayudarte a encontrar un proyecto que se ajuste a tu dominio.
+
+Usar Copilot Chat para encontrar proyectos de código abierto
+Puedes usar Copilot Chat para encontrar repositorios de código abierto que coincidan con un área que quieras mejorar o potenciar tus habilidades.
+
+Abre Copilot Chat e inicia un chat general. En este ejemplo, le pediremos a Copilot que busque proyectos de código abierto escritos en Python.
+
+Texto
+ I'm looking for a list of open source projects written in Python that are accepting new contributors. Narrow down the list to repositories that use the `good first issue` or `help wanted` labels and have over 100 stars on GitHub.
+Usar las etiquetas " good first issuey" help wanteden la búsqueda ayudará a Copilot a filtrar los repositorios que se abren para quienes contribuyen por primera vez. Después de la búsqueda, Copilot proporcionará un enlace a una lista completa de repositorios con esas etiquetas en el contexto de su búsqueda.
+
+Utilizar otros recursos para encontrar proyectos a los que contribuir
+Si hay algún tema en particular que te interese, visita [enlace faltante] github.com/topics/<topic>. Por ejemplo, si te interesa el aprendizaje automático, puedes encontrar proyectos relevantes y buenos primeros números visitando https://github.com/topics/machine-learning . También puedes buscar repositorios relacionados con un tema que te interese. Consulta " Buscando repositorios" . Puedes explorar los repositorios más populares del día visitando "Tendencias" .
+
+Si está interesado en contribuir a proyectos que reduzcan las emisiones de carbono del software , revise el Directorio de software verde de GitHub .
+
+Si has estado activo en GitHub, puedes encontrar recomendaciones personalizadas de proyectos y buenos primeros números basados ​​en tus contribuciones pasadas, estrellas y otras actividades en Explorar GitHub .
+
+Comprobación de si el repositorio se mantiene de forma activa
+Antes de empezar a contribuir a un repositorio de código abierto, se recomienda comprobar si se mantiene activamente. Copilot puede analizar un repositorio e informarle sobre su actividad reciente.
+
+En el sitio web de GitHub, vaya al repositorio sobre el que desea chatear.
+Haz clic en el icono en la esquina superior derecha de la página. Se mostrará el chat de GitHub Copilot. El encabezado en la parte superior del panel de chat mostrará el nombre del repositorio como archivo adjunto.
+En el cuadro de diálogo, escriba "¿Se mantiene este repositorio activamente?" y presione Enter. Copilot responde en el panel de chat.
+También puede visitar la vista Pulso en la pestaña Información del repositorio para obtener una visión general de la actividad reciente. Consulte github/docsPulso para ver un ejemplo de cómo se ve un proyecto de código abierto activo.
+
+Encontrar formas de contribuir
+Hay muchas formas de contribuir a proyectos de código abierto.
+
+Consultar el rastreador de problemas : Busque errores que necesiten corrección o reproducción, solicitudes de funciones o mejoras en la documentación. Muchos proyectos de código abierto utilizan las etiquetas good first issueo help wantedpara facilitar a los nuevos colaboradores la búsqueda de problemas en los que trabajar.
+Probar una solicitud de extracción : Puedes contribuir fusionando una solicitud de extracción en tu copia local del proyecto y probando los cambios. Agrega el resultado de tus pruebas en un comentario en la solicitud de extracción.
+Instalación y prueba del proyecto : Al usar un proyecto de código abierto, anote cualquier error, problema de usabilidad o funcionalidad faltante que encuentre. Compartir estos problemas puede proporcionar información valiosa a otros colaboradores.
+Mejorar la documentación : las mejoras en la documentación casi siempre son bienvenidas y pueden ser una excelente manera de comenzar a contribuir mientras se aprende el proyecto.
+Agregar pruebas : muchos proyectos necesitan una mejor cobertura de pruebas, lo que le ayuda a conocer el código base y al mismo tiempo agregar valor.
+Cada proyecto de código abierto tendrá un enfoque diferente sobre cómo aceptar contribuciones. Si buscas añadir una nueva funcionalidad o has descubierto un error, te conviene abrir una incidencia que describa tu propuesta antes de invertir un tiempo de desarrollo significativo. Esto puede ahorrar esfuerzo al alinearse con las expectativas del mantenedor desde el principio.
+
+Recuerde que las contribuciones que no son de código, como mejorar la documentación, el diseño o el soporte de la comunidad, son tan valiosas como las contribuciones de código y, a menudo, tienen una barrera de entrada más baja.
+
+Próximos pasos
+Ahora que has encontrado un proyecto de código abierto en el que trabajar y has aprendido las diferentes maneras de contribuir, estás listo para hacer tu primera contribución. Visita " Contribuir al código abierto" para ver el proceso completo.
