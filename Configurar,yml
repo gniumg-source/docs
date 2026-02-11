@@ -1,0 +1,52 @@
+Configurar Git
+GitHub se basa en un sistema de control de versiones (VCS) de código abierto llamado Git. Git se encarga de todo lo relacionado con GitHub que ocurre localmente en tu ordenador.
+
+En este artículo
+Usando Git
+Para usar Git desde la línea de comandos, necesitas descargarlo, instalarlo y configurarlo en tu ordenador. También puedes instalar la CLI de GitHub para usar GitHub desde la línea de comandos. Para más información, consulta Acerca de la CLI de GitHub .
+
+Si desea trabajar con Git localmente, pero no desea usar la línea de comandos, puede descargar e instalar el cliente de GitHub Desktop . Para obtener más información, consulte Acerca de GitHub Desktop .
+
+Si no necesita trabajar con archivos localmente, GitHub le permite completar muchas acciones relacionadas con Git directamente en el navegador, incluidas:
+
+Guía de inicio rápido para repositorios
+Bifurcar un repositorio
+Administrar archivos
+Configuración de Git
+Descargue e instale la última versión de Git .
+
+Nota
+
+La mayoría de los dispositivos Chrome OS de 2020 en adelante cuentan con un entorno Linux integrado, que incluye Git. Para habilitarlo, ve al Lanzador, busca Linux y haz clic en Activar .
+
+Si está utilizando un dispositivo Chrome OS más antiguo, se requiere otro método:
+
+Instale un emulador de terminal como Termux desde Google Play Store en su dispositivo Chrome OS.
+Desde el emulador de terminal que instalaste, instala Git. Por ejemplo, en Termux, escribe "Intro" pkg install gity luego "Escribe" ycuando se te solicite.
+Establezca su nombre de usuario en Git .
+
+Establezca su dirección de correo electrónico de confirmación en Git .
+
+Autenticación con GitHub desde Git
+Cuando te conectas a un repositorio de GitHub desde Git, necesitas autenticarte con GitHub usando HTTPS o SSH.
+
+Nota
+
+Puedes autenticarte en GitHub mediante la CLI de GitHub, ya sea por HTTPS o SSH. Para más información, consulta gh auth login.
+
+Conexión a través de HTTPS (recomendado)
+Si clonas con HTTPS, puedes almacenar en caché tus credenciales de GitHub en Git mediante un asistente de credenciales. Para obtener más información, consulta Acerca de los repositorios remotos y Almacenamiento en caché de tus credenciales de GitHub en Git .
+
+Conexión a través de SSH
+Si clonas con SSH, debes generar claves SSH en cada equipo que uses para enviar o recibir datos desde GitHub. Para más información, consulta Acerca de los repositorios remotos y Generar una nueva clave SSH y agregarla al agente ssh .
+
+Próximos pasos
+Ya tienes Git y GitHub configurados. Puedes crear un repositorio donde almacenar tus proyectos. Guardar tu código en un repositorio te permite hacer copias de seguridad de tu trabajo y compartirlo con todo el mundo.
+
+Crear un repositorio para tu proyecto te permite almacenar código en GitHub. Esto te proporciona una copia de seguridad de tu trabajo que puedes compartir con otros desarrolladores. Para más información, consulta la Guía de inicio rápido para repositorios .
+
+Bifurcar un repositorio te permitirá realizar cambios en otro repositorio sin afectar al original. Para más información, consulta Bifurcar un repositorio .
+
+Cada repositorio de GitHub pertenece a una persona u organización. Puedes interactuar con las personas, repositorios y organizaciones conectándote y siguiéndolos en GitHub. Para más información, consulta " Encontrar inspiración en GitHub" .
+
+GitHub cuenta con una excelente comunidad de soporte donde puedes pedir ayuda y hablar con personas de todo el mundo. Únete a la conversación en la Comunidad de GitHub .
