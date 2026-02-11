@@ -1,0 +1,58 @@
+# Configurar Git
+
+GitHub se basa en un sistema de control de versiones (VCS) de código abierto llamado Git. Git se encarga de todo lo relacionado con GitHub que ocurre localmente en tu ordenador.
+
+## Usando Git
+
+Para usar Git en la línea de comandos, necesitas descargarlo, instalarlo y configurarlo en tu ordenador. También puedes instalar GitHub CLI para usar GitHub desde la línea de comandos. Para más información, consulta [Acerca de GitHub CLI](/es/github-cli/github-cli/about-github-cli).
+
+Si desea trabajar con Git localmente, pero no desea usar la línea de comandos, puede descargar e instalar el cliente de GitHub Desktop. Para obtener más información, consulte [Acerca de GitHub Desktop](/es/desktop/overview/about-github-desktop).
+
+Si no necesita trabajar con archivos localmente, GitHub le permite completar muchas acciones relacionadas con Git directamente en el navegador, incluidas:
+
+* [Inicio rápido para repositorios](/es/repositorios/creacion-y-gestion-de-repositorios/inicio-rapido-para-repositorios)
+* [Bifurcar un repositorio](/es/solicitudes-de-extracción/colaborar-con-solicitudes-de-extracción/trabajar-con-bifurcaciones/bifurcar-un-repositorio)
+* [Administración de archivos](/es/repositorios/trabajar-con-archivos/administracion-de-archivos)
+
+## Configuración de Git
+
+1. [Descargue e instale la última versión de Git](https://git-scm.com/downloads).
+
+   > \[!NOTA]
+   La mayoría de los dispositivos Chrome OS de 2020 en adelante ya cuentan con un entorno Linux integrado, que incluye Git. Para habilitarlo, ve al Lanzador, busca Linux y haz clic en **Activar**.
+   >
+   > Si está utilizando un dispositivo Chrome OS más antiguo, se requiere otro método:
+   >
+   > 1. Instale un emulador de terminal como Termux desde Google Play Store en su dispositivo Chrome OS.
+   2. Desde el emulador de terminal que instalaste, instala Git. Por ejemplo, en Termux, escribe `pkg install git` y luego `y` cuando se te solicite.
+
+2. [Establezca su nombre de usuario en Git](/es/get-started/git-basics/setting-your-username-in-git).
+
+3. [Configure su dirección de correo electrónico de confirmación en Git](/es/cuenta-y-perfil/configurar-y-administrar-su-cuenta-personal-en-github/administrar-preferencias-de-correo-electrónico/configurar-su-direccion-de-correo-electrónico-de-confirmación).
+
+## Autenticación con GitHub desde Git
+
+Cuando te conectas a un repositorio de GitHub desde Git, necesitas autenticarte con GitHub usando HTTPS o SSH.
+
+> \[!NOTA]
+Puedes autenticarte en GitHub mediante la CLI de GitHub, ya sea por HTTPS o SSH. Para más información, consulta [`gh auth login`](https://cli.github.com/manual/gh_auth_login).
+
+### Conexión a través de HTTPS (recomendado)
+
+Si clonas con HTTPS, puedes almacenar en caché tus credenciales de GitHub en Git usando un asistente de credenciales. Para más información, consulta [Acerca de los repositorios remotos](/es/get-started/git-basics/about-remote-repositories#cloning-with-https-urls) y [Almacenar en caché tus credenciales de GitHub en Git](/es/get-started/git-basics/caching-your-github-credentials-in-git).
+
+### Conexión a través de SSH
+
+Si clonas con SSH, debes generar claves SSH en cada equipo que uses para enviar o recibir desde GitHub. Para más información, consulta [Acerca de los repositorios remotos](/es/get-started/git-basics/about-remote-repositories#cloning-with-ssh-urls) y [Generar una nueva clave SSH y añadirla al agente SSH](/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+
+## Próximos pasos
+
+Ya tienes Git y GitHub configurados. Puedes crear un repositorio donde almacenar tus proyectos. Guardar tu código en un repositorio te permite hacer copias de seguridad de tu trabajo y compartirlo con todo el mundo.
+
+* Crear un repositorio para tu proyecto te permite almacenar código en GitHub. Esto te proporciona una copia de seguridad de tu trabajo que puedes compartir con otros desarrolladores. Para más información, consulta [Guía rápida para repositorios](/es/repositorios/creacion-y-administracion-de-repositorios/guía-rápida-para-repositorios).
+
+* Bifurcar un repositorio te permitirá realizar cambios en otro repositorio sin afectar el original. Para más información, consulta [Bifurcar un repositorio](/es/solicitudes-de-extracción/colaboración-con-solicitudes-de-extracción/trabajar-con-bifurcaciones/bifurcar-un-repositorio).
+
+* Cada repositorio en GitHub pertenece a una persona u organización. Puedes interactuar con las personas, repositorios y organizaciones conectándote y siguiéndolos en GitHub. Para más información, consulta [En busca de inspiración en GitHub](/es/get-started/start-your-journey/finding-inspiration-on-github).
+
+* GitHub cuenta con una excelente comunidad de soporte donde puedes pedir ayuda y hablar con personas de todo el mundo. Únete a la conversación en la [Comunidad de GitHub](https://github.com/orgs/community/discussions).
