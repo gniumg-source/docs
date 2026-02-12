@@ -1,0 +1,160 @@
+Solicitudes de extracción /Colaborar con solicitudes de extracción /Trabajar con horquillas /Bifurcar un repositorio
+Bifurcar un repositorio
+Una bifurcación es un nuevo repositorio que comparte código y configuraciones de visibilidad con el repositorio “ascendente” original.
+
+Navegación de la plataforma
+Impermeable
+Ventanas
+Linux
+Navegación de herramientas
+Interfaz de línea de comandos de GitHub
+Navegador web
+De oficina
+En este artículo
+Acerca de las horquillas
+Una bifurcación es un nuevo repositorio que comparte código y configuración de visibilidad con el repositorio original. Las bifurcaciones se suelen usar para iterar ideas o cambios antes de proponerlos de nuevo al repositorio original, como en proyectos de código abierto o cuando un usuario no tiene acceso de escritura al repositorio original. Para más información, consulte Trabajar con bifurcaciones .
+
+Proponer cambios al proyecto de otra persona
+Por ejemplo, puedes usar bifurcaciones para proponer cambios relacionados con la corrección de un error. En lugar de registrar un problema por un error detectado, puedes:
+
+Bifurcar el repositorio.
+Haz la solución.
+Envíe una solicitud de extracción al propietario del proyecto.
+Utilice el proyecto de otra persona como punto de partida para su propia idea.
+El software de código abierto se basa en la idea de que, al compartir código, podemos crear software mejor y más confiable. Para más información, consulte la sección "Acerca de la Iniciativa de Código Abierto" en la página 10.
+
+Para obtener más información sobre cómo aplicar los principios de código abierto al trabajo de desarrollo de su organización en GitHub, consulte el documento técnico de GitHub Introducción a InnerSource .
+
+Al crear tu repositorio público a partir de una bifurcación del proyecto de alguien, asegúrate de incluir un archivo de licencia que determine cómo quieres que se comparta tu proyecto con otros. Para más información, consulta " Elegir una licencia de código abierto" en choosealicense.com.
+
+Para obtener más información sobre código abierto, en particular sobre cómo crear y desarrollar un proyecto de código abierto, hemos creado Guías de Código Abierto que te ayudarán a fomentar una comunidad de código abierto sólida, recomendando las mejores prácticas para crear y mantener repositorios para tu proyecto. También puedes realizar un curso gratuito de GitHub Skills sobre el mantenimiento de comunidades de código abierto.
+
+Prerrequisitos
+Si aún no lo has hecho, primero configura Git y la autenticación con GitHub.com desde Git. Para más información, consulta Configurar Git .
+
+Bifurcar un repositorio
+Podrías bifurcar un proyecto para proponer cambios al repositorio original. En este caso, es recomendable sincronizar regularmente tu bifurcación con el repositorio original. Para ello, necesitarás usar Git en la línea de comandos. Puedes practicar la configuración del repositorio original usando el mismo repositorio octocat/Spoon-Knife que acabas de bifurcar.
+
+En GitHub, navegue al repositorio octocat/Spoon-Knife .
+
+En la esquina superior derecha de la página, haga clic en Bifurcar .
+
+Captura de pantalla de la página principal del repositorio. Un botón, con el icono de una bifurcación y la leyenda "Bifurcación 59.3k", aparece resaltado en naranja oscuro.
+En "Propietario", seleccione el menú desplegable y haga clic en un propietario para el repositorio bifurcado.
+
+Por defecto, las bifurcaciones tienen el mismo nombre que sus repositorios originales. Opcionalmente, para distinguir mejor su bifurcación, escriba un nombre en el campo "Nombre del repositorio".
+
+Opcionalmente, en el campo "Descripción", escriba una descripción de su bifurcación.
+
+Opcionalmente, seleccione Copiar solo la rama PREDETERMINADA .
+
+En muchos casos de bifurcación, como contribuir a proyectos de código abierto, solo es necesario copiar la rama predeterminada. Si no se selecciona esta opción, todas las ramas se copiarán en la nueva bifurcación.
+
+Haga clic en Crear bifurcación .
+
+Nota
+
+Si desea copiar ramas adicionales del repositorio original, puede hacerlo desde la página Ramas . Para obtener más información, consulte Crear y eliminar ramas dentro del repositorio .
+
+Clonando su repositorio bifurcado
+En este momento, tienes una bifurcación del repositorio Spoon-Knife, pero no tienes los archivos de ese repositorio localmente en tu computadora.
+
+En GitHub, navega hasta tu bifurcación del repositorio Spoon-Knife.
+
+Sobre la lista de archivos, haga clic en Código .
+
+Captura de pantalla de la lista de archivos en la página de inicio de un repositorio. El botón "Código" está resaltado con un contorno naranja oscuro.
+Copiar la URL del repositorio.
+
+Para clonar el repositorio usando HTTPS, en "HTTPS", haga clic en .
+
+Para clonar el repositorio usando una clave SSH, incluido un certificado emitido por la autoridad de certificación SSH de su organización, haga clic en SSH y luego en .
+
+Para clonar un repositorio usando GitHub CLI, haga clic en GitHub CLI y luego en .
+
+Captura de pantalla del menú desplegable "Código". A la derecha de la URL HTTPS del repositorio, se ve un icono de copia resaltado en naranja oscuro.
+Abrir terminal .
+
+Cambie el directorio de trabajo actual a la ubicación donde desea el directorio clonado.
+
+Escribe git cloney pega la URL que copiaste antes. Se verá así, con tu nombre de usuario de GitHub en lugar de [nombre de usuario YOUR-USERNAME].
+
+git clone https://github.com/YOUR-USERNAME/Spoon-Knife
+Presiona Enter . Se creará tu clon local.
+
+$ git clone https://github.com/YOUR-USERNAME/Spoon-Knife
+> Cloning into `Spoon-Knife`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remote: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+Configurar Git para sincronizar su bifurcación con el repositorio ascendente
+Cuando bifurcas un proyecto para proponer cambios al repositorio ascendente, puedes configurar Git para extraer los cambios del repositorio ascendente al clon local de tu bifurcación.
+
+En GitHub, navegue al repositorio octocat/Spoon-Knife .
+
+Sobre la lista de archivos, haga clic en Código .
+
+Captura de pantalla de la lista de archivos en la página de inicio de un repositorio. El botón "Código" está resaltado con un contorno naranja oscuro.
+Copiar la URL del repositorio.
+
+Para clonar el repositorio usando HTTPS, en "HTTPS", haga clic en .
+
+Para clonar el repositorio usando una clave SSH, incluido un certificado emitido por la autoridad de certificación SSH de su organización, haga clic en SSH y luego en .
+
+Para clonar un repositorio usando GitHub CLI, haga clic en GitHub CLI y luego en .
+
+Captura de pantalla del menú desplegable "Código". A la derecha de la URL HTTPS del repositorio, se ve un icono de copia resaltado en naranja oscuro.
+Abrir terminal .
+
+Cambie los directorios a la ubicación de la bifurcación que clonó.
+
+Para ir a su directorio de inicio, escriba simplemente cdsin ningún otro texto.
+Para listar los archivos y carpetas en su directorio actual, escriba ls.
+Para ingresar a uno de los directorios listados, escriba cd YOUR-LISTED-DIRECTORY.
+Para subir un directorio, escriba cd ...
+Escribe git remote -vy pulsa Intro . Verás el repositorio remoto configurado actualmente para tu bifurcación.
+
+$ git remote -v
+> origin  https://github.com/YOUR-USERNAME/YOUR-FORK.git (fetch)
+> origin  https://github.com/YOUR-USERNAME/YOUR-FORK.git (push)
+Escribe git remote add upstreamy pega la URL que copiaste en el paso 3 y pulsa Intro . Se verá así:
+
+git remote add upstream https://github.com/ORIGINAL-OWNER/Spoon-Knife.git
+Para verificar el nuevo repositorio original que has especificado para tu bifurcación, escribe git remote -vde nuevo. Deberías ver la URL de tu bifurcación como origin, y la URL del repositorio original como upstream.
+
+$ git remote -v
+> origin    https://github.com/YOUR-USERNAME/YOUR-FORK.git (fetch)
+> origin    https://github.com/YOUR-USERNAME/YOUR-FORK.git (push)
+> upstream  https://github.com/ORIGINAL-OWNER/ORIGINAL-REPOSITORY.git (fetch)
+> upstream  https://github.com/ORIGINAL-OWNER/ORIGINAL-REPOSITORY.git (push)
+Ahora puedes mantener tu bifurcación sincronizada con el repositorio original con solo unos pocos comandos de Git. Para más información, consulta Sincronizar una bifurcación .
+
+Editar una bifurcación
+Puedes realizar cualquier cambio en una bifurcación, incluidos:
+
+Creación de ramas: las ramas le permiten crear nuevas funciones o probar ideas sin poner en riesgo su proyecto principal.
+Apertura de solicitudes de extracción: si desea contribuir nuevamente al repositorio ascendente, puede enviar una solicitud al autor original para que incorpore su bifurcación a su repositorio enviando una solicitud de extracción .
+Encuentra otro repositorio para bifurcar
+Bifurca un repositorio para empezar a contribuir a un proyecto. Puedes bifurcar cualquier repositorio público:
+
+A tu cuenta personal
+A una organización donde tenga permiso para crear repositorios
+Si tiene acceso a un repositorio privado y el propietario permite la bifurcación, puede bifurcar el repositorio:
+
+A tu cuenta personal
+A una organización en el equipo de GitHub donde tiene permiso para crear repositorios
+No se puede bifurcar un repositorio privado a una organización mediante GitHub Free. Para obtener más información sobre GitHub Team y GitHub Free, consulta los planes de GitHub . Para obtener más información sobre cuándo se puede bifurcar un repositorio, consulta Acerca de los permisos y la visibilidad de las bifurcaciones .
+
+Puedes explorar GitHub para encontrar proyectos y empezar a contribuir a repositorios de código abierto. Para más información, consulta Cómo contribuir al código abierto en GitHub .
+
+Próximos pasos
+Ahora ha bifurcado un repositorio, ha practicado la clonación de su bifurcación y ha configurado un repositorio ascendente.
+
+Para obtener más información sobre cómo clonar la bifurcación y sincronizar los cambios en un repositorio bifurcado desde su computadora, consulte Configurar Git .
+
+También puedes crear un nuevo repositorio donde guardar todos tus proyectos y compartir el código en GitHub. Crear un repositorio para tu proyecto te permite guardar código en GitHub. Esto te proporciona una copia de seguridad de tu trabajo que puedes compartir con otros desarrolladores. Para más información, consulta la Guía de inicio rápido para repositorios .
+
+Cada repositorio de GitHub pertenece a una persona u organización. Puedes interactuar con las personas, repositorios y organizaciones conectándote y siguiéndolos en GitHub. Para más información, consulta " Encontrar inspiración en GitHub" .
+
+GitHub cuenta con una excelente comunidad de soporte donde puedes pedir ayuda y hablar con personas de todo el mundo. Únete a la conversación en la Comunidad de GitHub .
