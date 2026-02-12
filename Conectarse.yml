@@ -1,0 +1,60 @@
+Documentación de GitHub
+Empezar /Usando GitHub /Conectarse a GitHub
+Conectarse a GitHub
+Conozca las herramientas que puede utilizar para trabajar con repositorios alojados en GitHub.
+
+En este artículo
+Introducción
+GitHub es una aplicación web que te permite alojar archivos en repositorios, colaborar en el trabajo y realizar un seguimiento de los cambios en los archivos a lo largo del tiempo. El seguimiento de versiones en GitHub se basa en el software de código abierto Git. Al actualizar un repositorio en GitHub, Git registra los cambios que realizas.
+
+Hay muchas maneras de trabajar con GitHub, y puedes elegir el método que mejor se adapte a tu nivel de experiencia, preferencias personales y los repositorios con los que trabajas. Por ejemplo, puedes elegir si quieres trabajar en el navegador o desde el escritorio, cómo quieres usar Git y qué funciones necesitas de tu editor y otro software. Puedes trabajar con diferentes repositorios de diferentes maneras.
+
+Si eres nuevo en GitHub, una buena manera de empezar a contribuir es realizar cambios en el navegador de GitHub.com. A medida que te familiarices con GitHub y comiences a contribuir con cambios más importantes, quizás quieras empezar a trabajar con otras herramientas. Este artículo explica cómo avanzar por estas etapas y te ayuda a elegir la herramienta que mejor se adapte a tus necesidades en cada etapa. Para comparar rápidamente todas las herramientas disponibles para trabajar con GitHub, consulta Comparación de herramientas para conectarse a GitHub .
+
+Empezando
+En la interfaz de usuario de GitHub.com, puedes realizar todo el proceso de GitHub para contribuir a un repositorio, incluyendo la creación de una rama o bifurcación, la edición y previsualización de archivos, la confirmación de cambios y la creación de una solicitud de extracción. También puedes subir archivos desde tu ordenador o descargarlos del repositorio. Para más información, consulta el flujo de GitHub .
+
+Trabajar directamente en GitHub.com suele ser la forma más rápida de contribuir a un repositorio, por las siguientes razones.
+
+Estás trabajando directamente con el repositorio alojado en GitHub, por lo que no tienes que descargar una copia del repositorio a tu computadora y mantener esta copia sincronizada.
+Si ya has iniciado sesión en GitHub, tienes acceso a cualquier repositorio donde tengas los permisos necesarios, por lo que no necesitas configurar ninguna autenticación adicional en tu computadora.
+Puedes confirmar cambios en la interfaz de usuario, por lo que no necesitas usar la línea de comandos ni memorizar ningún comando de Git.
+Para obtener un tutorial que le ayude a comenzar a realizar cambios en el navegador, consulte Hola mundo .
+
+Realizar cambios más complejos en el navegador
+Trabajar directamente en GitHub.com es ideal para cambios pequeños y sencillos, que suelen afectar a un solo archivo de un repositorio. Si quieres trabajar en el navegador pero necesitas realizar cambios más complejos, como mover contenido entre archivos, puedes elegir entre las siguientes herramientas para abrir un repositorio en un editor dedicado.
+
+Si busca un editor que le permita abrir o crear archivos rápidamente, puede presionar la .tecla en cualquier repositorio para abrir el editor github.dev. Este es un editor web ligero que incluye muchas de las características de Visual Studio Code, como una barra de búsqueda y botones para comandos de Git. Para más información, consulte El editor web github.dev .
+Si desea permanecer en el navegador, pero necesita ejecutar comandos, crear una compilación de prueba de su proyecto o instalar dependencias, puede abrir un repositorio en un codespace. Un codespace es un entorno de desarrollo remoto con almacenamiento y capacidad de procesamiento. Incluye un editor y una terminal integrada, y viene preinstalado con las herramientas comunes que puede necesitar para trabajar con un proyecto, incluyendo Git. Para más información, consulte la Guía de inicio rápido para codespaces de GitHub .
+Alternativamente, puede conectarse a GitHub desde su escritorio y trabajar con una copia local del repositorio.
+
+Trabajando desde el escritorio
+Para trabajar con un repositorio desde el escritorio, deberá descargar (o clonar) una copia del repositorio a su computadora y luego subir los cambios que realice a GitHub. Trabajar desde el escritorio tiene varias ventajas respecto a hacerlo desde el navegador.
+
+Puede trabajar con todos sus archivos y herramientas locales.
+Tienes acceso a potencia de procesamiento. Por ejemplo, podrías necesitar ejecutar un script para crear una vista previa local de un sitio y así poder probar los cambios que estás realizando.
+No necesitas una conexión a Internet para trabajar en un proyecto.
+Si nunca has trabajado con un repositorio de GitHub desde tu ordenador, necesitarás autenticarte a GitHub desde tu ordenador para poder acceder a los repositorios que necesitas. También podrías tener que configurar tu entorno de trabajo con las herramientas necesarias para contribuir, como Git, un editor y las dependencias de un proyecto. Por estas razones, puede que te lleve más tiempo empezar a trabajar desde el ordenador que desde el navegador.
+
+Hay varias herramientas que puedes usar para conectarte a GitHub desde tu escritorio. Estas herramientas te permiten autenticarte en GitHub, clonar un repositorio, rastrear tus cambios y subirlos a GitHub.
+
+Si buscas mayor control y flexibilidad, puedes usar la línea de comandos. Necesitarás instalar Git y familiarizarte con algunos comandos básicos. También puedes instalar GitHub CLI, una interfaz de línea de comandos que te permite realizar diversas acciones en GitHub, como crear una solicitud de extracción o bifurcar un repositorio. Para más información, consulta Configurar Git y Acerca de GitHub CLI .
+Si prefieres usar una interfaz visual, puedes usar un cliente visual de Git como GitHub Desktop. Con GitHub Desktop, puedes visualizar los cambios que realizas y acceder a la mayoría de los comandos de Git a través de una interfaz visual, sin necesidad de memorizar ningún comando. Para más información, consulta Acerca de GitHub Desktop .
+Si quieres trabajar desde un solo lugar, a menudo puedes hacer casi todo desde tu editor. Un editor como VS Code incluye una terminal integrada y botones para comandos comunes de Git, lo que te permite editar archivos y subir tus cambios a GitHub desde un solo lugar. También puedes instalar una extensión para trabajar directamente con solicitudes de extracción e incidencias en GitHub. Para empezar, consulta Descargar VS Code .
+Comparación de herramientas para conectarse a GitHub
+La siguiente tabla proporciona una comparación entre las herramientas que puedes usar para trabajar con repositorios en GitHub, tanto en tu navegador como desde tu escritorio.
+
+Puedes ejecutar todo el flujo de GitHub con cualquiera de las herramientas descritas aquí. Cada herramienta incluye acceso no solo a los comandos de Git para el seguimiento de los cambios realizados, sino también a funciones específicas de GitHub, lo que te permite crear una solicitud de extracción con los cambios propuestos desde cualquier lugar.
+
+Para obtener más información sobre cómo autenticarse en GitHub con cada una de estas herramientas, consulte Acerca de la autenticación en GitHub .
+
+Herramienta	Caso de uso	Navegador o computadora de escritorio
+En GitHub.com	Quieres una interfaz visual y necesitas realizar cambios rápidos y sencillos, que suelen requerir una sola confirmación. Para una introducción, consulta "Hola Mundo" .	Navegador
+github.dev	Quieres realizar cambios más complejos en un repositorio que los que se pueden hacer en GitHub.com, pero no necesitas usar una terminal ni las herramientas que tengas instaladas en tu ordenador. Para más información, consulta el editor web de github.dev .	Navegador
+Espacios de código de GitHub	Necesitas los recursos de una computadora para ejecutar scripts, crear una compilación de prueba de tu proyecto o instalar dependencias, y quieres empezar rápidamente trabajando en un entorno en la nube. Para más información, consulta la Guía de inicio rápido para GitHub Codespaces .	Navegador o computadora de escritorio
+GitHub Desktop	Quieres trabajar con archivos localmente y prefieres una interfaz visual para usar Git, visualizar cambios e interactuar con GitHub. Para más información, consulta Acerca de GitHub Desktop .	De oficina
+IDE o editor de texto	Estás trabajando con archivos y proyectos más complejos y quieres tener todo en un solo lugar.	De oficina
+Git de línea de comandos y CLI de GitHub	Estás acostumbrado a trabajar desde la línea de comandos y quieres evitar cambiar de contexto, o necesitas acceder a un comando complejo de Git que no está integrado en las interfaces visuales. Para más información, consulta Configurar Git y Acerca de la CLI de GitHub .	De oficina
+API de GitHub	Quieres automatizar tareas comunes, como hacer copias de seguridad de tus datos, o crear integraciones que extiendan GitHub. Para más información, consulta Comparación de la API REST de GitHub y la API GraphQL .	Navegador o computadora de escritorio
+Lectura adicional
+Acerca de Git
