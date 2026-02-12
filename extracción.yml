@@ -1,0 +1,71 @@
+Documentación de GitHub
+Solicitudes de extracción /Colaborar con solicitudes de extracción /Incorporar cambios /Fusionar una solicitud de extracción
+Fusionar una solicitud de extracción
+Fusionar una solicitud de extracción en la rama principal una vez finalizado el trabajo. Cualquier persona con acceso push al repositorio puede completar la fusión.
+
+Navegación de herramientas
+Interfaz de línea de comandos de GitHub
+Navegador web
+En este artículo
+Acerca de las fusiones de solicitudes de extracción
+En una solicitud de extracción, se propone que los cambios realizados en una rama principal se fusionen en una rama base. De forma predeterminada, cualquier solicitud de extracción se puede fusionar en cualquier momento, a menos que la rama principal entre en conflicto con la rama base. Sin embargo, puede haber restricciones sobre cuándo se puede fusionar una solicitud de extracción en una rama específica. Por ejemplo, es posible que solo se pueda fusionar una solicitud de extracción en la rama predeterminada si se superan las comprobaciones de estado requeridas. Los administradores de repositorios pueden añadir restricciones como esta a las ramas mediante reglas de protección de ramas. Para obtener más información, consulte Acerca de las ramas protegidas .
+
+Como alternativa a las reglas de protección de ramas, puede crear conjuntos de reglas. Estos conjuntos ofrecen algunas ventajas, como la posibilidad de modificar los estados y una mejor visibilidad sin necesidad de acceso de administrador. También puede aplicar varios conjuntos de reglas simultáneamente. Para obtener más información, consulte Acerca de los conjuntos de reglas .
+
+Puedes configurar una solicitud de extracción para que se fusione automáticamente cuando se cumplan todos los requisitos. Para obtener más información, consulta Fusionar automáticamente una solicitud de extracción .
+
+Si la solicitud de extracción tiene conflictos de fusión, o si desea probar los cambios antes de fusionar, puede verificar la solicitud de extracción localmente y fusionarla usando la línea de comando.
+
+No se pueden fusionar borradores de solicitudes de extracción. Para obtener más información sobre los borradores de solicitudes de extracción, consulta Acerca de las solicitudes de extracción .
+
+El repositorio puede configurarse para que la rama principal de una solicitud de extracción se elimine automáticamente al fusionarla. Para más información, consulte " Administrar la eliminación automática de ramas" .
+
+Nota
+
+Si eliminas una rama principal después de fusionar su solicitud de extracción, GitHub comprueba si hay solicitudes de extracción abiertas en el mismo repositorio que especifiquen la rama eliminada como rama base. GitHub actualiza automáticamente dichas solicitudes, cambiando su rama base a la rama base de la solicitud de extracción fusionada. Para más información, consulta Acerca de las ramas .
+
+Las solicitudes de extracción se fusionan usando la --no-ffopción , excepto las solicitudes de extracción con confirmaciones aplastadas o rebasadas , que se fusionan usando la opción de avance rápido.
+
+Puedes vincular una solicitud de extracción a una incidencia para indicar que hay una solución en curso y cerrar la incidencia automáticamente al fusionarla. Para más información, consulta Vincular una solicitud de extracción a una incidencia .
+
+Si decide que no desea que los cambios en una rama de tema se fusionen con la rama anterior, puede cerrar la solicitud de extracción sin fusionar.
+
+Fusionar una solicitud de extracción
+Debajo del nombre de su repositorio, haga clic en Solicitudes de extracción .
+
+Captura de pantalla de la página principal de un repositorio. En la barra de navegación horizontal, la pestaña "Solicitudes de incorporación de cambios" aparece resaltada en naranja oscuro.
+En la lista "Solicitudes de extracción", haga clic en la solicitud de extracción que desea fusionar.
+
+Desplázate hasta el final de la solicitud de extracción. Según las opciones de fusión habilitadas en tu repositorio, puedes:
+
+Fusiona todas las confirmaciones en la rama base haciendo clic en "Fusionar solicitud de incorporación de cambios ". Si no se muestra esta opción, haz clic en el menú desplegable "Fusionar" y selecciona " Crear una confirmación de incorporación de cambios" .
+
+Captura de pantalla de las opciones de fusión de una solicitud de extracción. La flecha para expandir el menú desplegable está resaltada en naranja oscuro.
+Aplastar las confirmaciones en una sola confirmación haciendo clic en el menú desplegable de combinación, seleccionando Aplastar y combinar y luego haciendo clic en Aplastar y combinar .
+
+Vuelva a basar las confirmaciones individualmente en la rama base haciendo clic en el menú desplegable de fusión, seleccionando Rebase y fusionar y luego haciendo clic en Rebase y fusionar .
+
+Nota
+
+La reorganización y la fusión siempre actualizarán la información del confirmador y crearán nuevos SHA de confirmación. Para más información, consulta Acerca de las fusiones de solicitudes de incorporación de cambios .
+
+Si se le solicita, escriba un mensaje de confirmación o acepte el mensaje predeterminado.
+
+Para obtener información sobre los mensajes de confirmación predeterminados para las fusiones de squash, consulte Acerca de las fusiones de solicitudes de extracción .
+
+Si tienes más de una dirección de correo electrónico asociada a tu cuenta de GitHub, haz clic en el menú desplegable de direcciones de correo electrónico y selecciona la que quieras usar como dirección de correo electrónico del autor de Git. Solo aparecen en este menú desplegable las direcciones de correo electrónico verificadas. Si habilitaste la privacidad de la dirección de correo electrónico, la dirección de correo electrónico predeterminada para el autor de la confirmación será "no responder". Para obtener más información sobre cómo puede ser la dirección de correo electrónico "no responder", consulta " Configurar tu dirección de correo electrónico de confirmación" .
+
+Captura de pantalla de una solicitud de extracción de GitHub que muestra un menú desplegable con opciones para elegir la dirección de correo electrónico del autor de la confirmación. Se selecciona octocat@github.com.
+Nota
+
+El selector de correo electrónico no está disponible para las fusiones de rebase, que no generan una confirmación de fusión. Para las fusiones squash, el selector de correo electrónico solo se muestra si usted es el autor de la solicitud de incorporación de cambios y tiene más de una dirección de correo electrónico asociada a su cuenta.
+
+Haga clic en Confirmar fusión , Confirmar combinación y fusión o Confirmar rebase y fusión .
+
+Opcionalmente, elimine la rama . Esto mantiene ordenada la lista de ramas en su repositorio.
+
+Lectura adicional
+Cómo revertir una solicitud de extracción
+Sincronizar su rama en GitHub Desktop usando GitHub Desktop
+Acerca de las fusiones de solicitudes de extracción
+Abordar los conflictos de fusión
