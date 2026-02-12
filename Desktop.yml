@@ -1,0 +1,95 @@
+Documentación de GitHub
+GitHub Desktop
+Documentación de GitHub Desktop
+Con GitHub Desktop, puedes interactuar con GitHub mediante una interfaz gráfica de usuario en lugar de la línea de comandos o un navegador web. Puedes usar GitHub Desktop para ejecutar la mayoría de los comandos de Git desde tu escritorio, como enviar y recibir archivos de repositorios remotos, clonar, atribuir confirmaciones y crear solicitudes de extracción, con confirmación visual de los cambios.
+
+Empieza aquí
+Creando tu primer repositorio usando GitHub Desktop
+Puedes usar GitHub Desktop para crear y administrar un repositorio Git sin usar la línea de comandos.
+
+Instalación de GitHub Desktop
+Puedes instalar GitHub Desktop en sistemas operativos Windows o macOS compatibles.
+
+Autenticación en GitHub en GitHub Desktop
+Puede acceder de forma segura a los recursos de su cuenta en GitHub Desktop autenticándose en GitHub.
+
+Popular
+Clonación y bifurcación de repositorios desde GitHub Desktop
+Puedes usar GitHub Desktop para clonar y bifurcar repositorios que existen en GitHub.
+
+Administrar ramas en GitHub Desktop
+Puedes usar GitHub Desktop para crear una nueva rama a partir de una rama existente en tu repositorio para que puedas experimentar con los cambios de forma segura.
+
+Sincronizar tu rama en GitHub Desktop
+A medida que se envían confirmaciones a su proyecto en GitHub, puede mantener su copia local del proyecto sincronizada extrayéndolas del repositorio remoto.
+
+Crear un problema o una solicitud de extracción desde GitHub Desktop
+Puede crear un problema o una solicitud de extracción para proponer cambios en un repositorio y colaborar en ellos.
+
+Guías
+Guardar cambios en GitHub Desktop
+Puedes guardar temporalmente tus cambios sin confirmarlos en una rama almacenándolos en GitHub Desktop.
+
+@GitHub
+Cómo revertir una confirmación en GitHub Desktop
+Puedes usar GitHub Desktop para revertir una confirmación específica y eliminar sus cambios de tu rama.
+
+@GitHub
+Modificar una confirmación en GitHub Desktop
+Puedes usar GitHub Desktop para modificar tu última confirmación.
+
+@GitHub
+Seleccionar cuidadosamente una confirmación en GitHub Desktop
+Puedes usar GitHub Desktop para seleccionar una confirmación específica en una rama y copiarla a otra rama.
+
+@GitHub
+Toda la documentación de GitHub Desktop
+Descripción general
+Acerca de GitHub Desktop
+Introducción a GitHub Desktop
+Creando tu primer repositorio usando GitHub Desktop
+Sistemas operativos compatibles con GitHub Desktop
+Atajos de teclado de GitHub Desktop
+Iniciar GitHub Desktop desde la línea de comandos
+Instalación y autenticación en GitHub Desktop
+Configuración de GitHub Desktop
+Instalación de GitHub Desktop
+Autenticación en GitHub en GitHub Desktop
+Acerca de las conexiones a GitHub en GitHub Desktop
+Actualización de GitHub Desktop
+Desinstalar GitHub Desktop
+Configuración y personalización de GitHub Desktop
+Configuración de Git para GitHub Desktop
+Configuración de ajustes básicos en GitHub Desktop
+Configurar un editor predeterminado en GitHub Desktop
+Establecer un tema para GitHub Desktop
+Acerca del almacenamiento de archivos grandes de Git y GitHub Desktop
+Agregar y clonar repositorios
+Cómo agregar un repositorio desde su computadora local a GitHub Desktop
+Cómo agregar un proyecto existente a GitHub mediante GitHub Desktop
+Clonación y bifurcación de repositorios desde GitHub Desktop
+Clonar un repositorio de GitHub a GitHub Desktop
+Realizar cambios en una rama
+Administrar ramas en GitHub Desktop
+Confirmar y revisar cambios en su proyecto en GitHub Desktop
+Guardar cambios en GitHub Desktop
+Cómo ver el historial de la rama en GitHub Desktop
+Enviar cambios a GitHub desde GitHub Desktop
+Gestión de confirmaciones
+Opciones para administrar confirmaciones en GitHub Desktop
+Deshacer una confirmación en GitHub Desktop
+Restablecer una confirmación en GitHub Desktop
+Modificar una confirmación en GitHub Desktop
+Cómo revertir una confirmación en GitHub Desktop
+Seleccionar cuidadosamente una confirmación en GitHub Desktop
+Reordenar confirmaciones en GitHub Desktop
+Aplastar confirmaciones en GitHub Desktop
+Administrar etiquetas en GitHub Desktop
+Revisar una confirmación en GitHub Desktop
+Trabajar con su repositorio remoto en GitHub o GitHub Enterprise
+Crear un problema o una solicitud de extracción desde GitHub Desktop
+Sincronizar tu rama en GitHub Desktop
+Cómo ver una solicitud de extracción en GitHub Desktop
+Visualización y re-ejecución de comprobaciones en GitHub Desktop
+Configurar notificaciones en GitHub Desktop
+Cambiar la URL remota de un repositorio en GitHub Desktop
